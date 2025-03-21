@@ -1,39 +1,53 @@
-# Step 1: Get Authorization to Access a Calendar
+# 🔐 Step 1: Connect to the Cronofy API
 
-To start using the Cronofy Calendar API, you'll need to authenticate and get an access token.
+We first need to connect to the Cronofy API using your client credentials.
 
-## Steps:
+---
 
-1. **Create an App on Cronofy**:
-   - Go to the [Cronofy Developer Dashboard](https://www.cronofy.com/developers/).
-   - Sign up or log in.
-   - Click on **Create New App** and follow the instructions to create a new application.
+## 🧠 1. Create a Cronofy Developer App
 
-2. **Obtain your Client ID and Client Secret**:
-   - After creating the app, you will receive a **Client ID** and **Client Secret**. Keep these credentials safe.
+1. Go to the [Cronofy Developer Console](https://app.cronofy.com/developers/applications)  
+2. Click **“Create New Application”**  
+3. Name it anything you like  
+4. Set the **Redirect URI** to:
 
-3. **Get the OAuth Authorization URL**:
-   - To get the access token, Cronofy uses OAuth 2.0. Direct your user to the following URL to authenticate:
-     ```
-     https://api.cronofy.com/oauth/authorize?response_type=code&client_id=<YOUR_CLIENT_ID>&redirect_uri=<YOUR_REDIRECT_URI>
-     ```
-     Replace `<YOUR_CLIENT_ID>` with your actual Client ID, and `<YOUR_REDIRECT_URI>` with the redirect URI you specified when creating your app.
+```
+http://localhost:3000/callback
+```
 
-4. **User Grants Access**:
-   - The user will log in and authorize your app to access their calendar. After approval, Cronofy will redirect the user to the redirect URI, appending an authorization code to the URL.
+> (We won’t use this for this tutorial, but it’s required)
 
-5. **Exchange the Authorization Code for an Access Token**:
-   - Once you have the authorization code, you can exchange it for an access token. This is done by making a POST request to the Cronofy API with the following details:
-   
-   ```bash
-   POST https://api.cronofy.com/oauth/token
-   Content-Type: application/x-www-form-urlencoded
-   Grant_type: authorization_code
-   Code: <YOUR_AUTHORIZATION_CODE>
-   Client_id: <YOUR_CLIENT_ID>
-   Client_secret: <YOUR_CLIENT_SECRET>
-   Redirect_uri: <YOUR_REDIRECT_URI>
+5. After creating the app, copy your:
+- **Client ID**
+- **Client Secret**
 
-- This will return an access token that you can use to make requests to the Cronofy API.
+👉 You’ll also need to **authorize access to your calendar** during this tutorial in order to make API calls that interact with real data.
 
-After completing this step, you'll have the credentials needed to authenticate your app and access the calendar data.
+---
+
+## 🔑 2. Request an Access Token
+
+Paste your credentials into these variables and run this in the terminal:
+
+```sh
+CLIENT_ID="your-client-id"
+CLIENT_SECRET="your-client-secret"
+
+curl -X POST https://api.cronofy.com/oauth/token \
+  -d "grant_type=client_credentials" \
+  -d "client_id=$CLIENT_ID" \
+  -d "client_secret=$CLIENT_SECRET" | jq
+```
+
+You should see a JSON response with your access token:
+
+```json
+{
+  "access_token": "your-access-token",
+  "token_type": "bearer",
+  ...
+}
+```
+
+👉 Copy that access token — you’ll use it in the next step!
+
