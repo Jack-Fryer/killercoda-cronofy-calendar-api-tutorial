@@ -1,4 +1,4 @@
-# 🔐 Step 1: Create a Cronofy Developer App
+# 🔐 Create a Cronofy Developer App
 
 We first need to connect to the Cronofy API using your client credentials.
 
@@ -25,7 +25,7 @@ After creating the application, copy your:
 ---
 
 
-## 🔑 2. Authorize access to your calendar
+## Authorize access to your calendar
 
 Scroll down the page and click 'Connect a calendar for your account' and go through the oAuth flow in your browser. 
 
