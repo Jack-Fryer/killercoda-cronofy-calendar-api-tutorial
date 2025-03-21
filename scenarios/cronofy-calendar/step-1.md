@@ -29,7 +29,7 @@ http://127.0.0.1
 
 ## 🔑 2. Authorize access to your calendar
 
-After authorizing Cronofy access to your calendar, copy your:
+After authorizing Cronofy access to your calendar, scroll down the page and copy your:
 - **Access Token**
   
 > 👉 You'll need your Access Token in the next step!
