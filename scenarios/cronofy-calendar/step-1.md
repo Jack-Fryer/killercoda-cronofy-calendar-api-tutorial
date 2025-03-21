@@ -21,35 +21,15 @@ http://localhost:3000/callback
 - **Client ID**
 - **Client Secret**
 
-> 👉 You’ll also need to **authorize access to your calendar** during this tutorial in order to make API calls that interact with real data.
 
 ---
 
 
-## 🔑 2. Request an Access Token
+## 🔑 2. Authorize access to your calendar
 
-Paste your credentials into these variables and run this in the terminal:
-
-```sh
-CLIENT_ID="your-client-id"
-CLIENT_SECRET="your-client-secret"
-
-curl -X POST https://api.cronofy.com/oauth/token \
-  -d "grant_type=client_credentials" \
-  -d "client_id=$CLIENT_ID" \
-  -d "client_secret=$CLIENT_SECRET"
-```
-
-You should see a JSON response with your access token:
-
-```json
-{
-  "access_token": "your-access-token",
-  "token_type": "bearer",
-  ...
-}
-```
-
-> 👉 Copy that access token — you’ll use it in the next step!
+After authorizing Cronofy access to your calendar, copy your:
+- **Access Token**
+  
+> 👉 You'll need your Access Token in the next step!
 
 
