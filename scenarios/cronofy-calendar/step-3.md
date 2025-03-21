@@ -42,31 +42,6 @@ curl -X POST "https://api.cronofy.com/v1/calendars/<CALENDAR_ID>/events" \
 
 ---
 
-## 📬 2. Example Response
-
-If successful, the API will return a JSON array of upcoming events. Here’s a sample response:
-
-```json
-{
-  "events": [
-    {
-      "event_id": "12345",
-      "summary": "Meeting with team",
-      "start": "2025-03-22T10:00:00Z",
-      "end": "2025-03-22T11:00:00Z"
-    },
-    {
-      "event_id": "67890",
-      "summary": "Doctor's Appointment",
-      "start": "2025-03-22T14:00:00Z",
-      "end": "2025-03-22T15:00:00Z"
-    }
-  ]
-}
-```
-
----
-
 ✅ You’ve now created a real event on a real calendar using Cronofy’s API! Head to your calendar to verify the event was created.
 
 > We're going to delete it in the next step.
