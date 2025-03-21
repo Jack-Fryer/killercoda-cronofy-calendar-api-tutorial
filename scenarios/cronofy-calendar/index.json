@@ -1,0 +1,18 @@
+{
+  "title": "Cronofy Calendar API Tutorial",
+  "description": "Learn how to use the Cronofy Calendar API to read events, create new events, and integrate with your application.",
+  "steps": [
+    {
+      "title": "Get Authorization to Access the Calendar",
+      "file": "step-1.md"
+    },
+    {
+      "title": "Read Events from the Calendar",
+      "file": "step-2.md"
+    },
+    {
+      "title": "Create a New Event in the Calendar",
+      "file": "step-3.md"
+    }
+  ]
+}
