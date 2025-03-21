@@ -2,7 +2,9 @@
 
 You’ve created and viewed events — now let’s clean up by deleting one.
 
-Cronofy makes it simple to delete calendar events using their unique `event_id`. This is the same ID you used when creating the event in the previous step.
+Cronofy makes it simple to delete calendar events using their unique `event_id`. 
+
+Let's test your knowledge and see if you can run a query to see what events you have and find the event ID of the event we just created (ADD something here) 
 
 ---
 
