@@ -2,6 +2,10 @@
 
 In this interactive scenario, you’ll get hands-on experience with the **Cronofy Calendar API**. You’ll learn how to connect, read, write, and delete calendar events — all right here in the browser.
 
+
+You will need to create a free Killercoda account to access this tutorial. If you haven't used Killercoda before, it is an interactive learning platform that provides browser-based access to Linux and Kubernetes environments for hands-on learning and scenario exploration, without requiring local setup or resource usage.
+
+
 ---
 
 ## 🧭 What You’ll Learn
@@ -22,6 +26,6 @@ In this interactive scenario, you’ll get hands-on experience with the **Cronof
 
 By the end of this tutorial, you’ll have a Cronofy Developer Account up and running, and will have grasped the basics of working with **Cronofy’s Calendar API**.
 
-No frameworks. No installs. Just code.
+
 
 👇 Click **Start Scenario** to begin!
