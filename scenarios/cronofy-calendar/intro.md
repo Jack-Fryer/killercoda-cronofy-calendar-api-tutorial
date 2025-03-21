@@ -5,6 +5,8 @@ In this interactive scenario, you’ll get hands-on experience with the **Cronof
 
 You will need to create a free Killercoda account to access this tutorial. If you haven't used Killercoda before, it is an interactive learning platform that provides browser-based access to Linux and Kubernetes environments for hands-on learning and scenario exploration, without requiring local setup or resource usage.
 
+As you run through this tutorial, you will be copy and pasting the commands you see into the Killercoda terminal on the right hand side.
+
 
 ---
 
@@ -28,4 +30,4 @@ By the end of this tutorial, you’ll have a Cronofy Developer Account up and ru
 
 
 
-👇 Click **Start Scenario** to begin!
+>👇 Click **Start Scenario** to begin!
