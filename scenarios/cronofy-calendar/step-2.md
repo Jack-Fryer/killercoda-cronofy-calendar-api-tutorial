@@ -1,6 +1,6 @@
 # 📅 Step 2: Read Events from the Calendar
 
-Now that you've obtained an access token, you can use it to read events from the user's calendar. For the case of this tutorial, we will be reading events from your own calendar that you have already connected. 
+Now that you've obtained an access token, you can use it to query the Calendar API and read events from the calendar you connected.
 
 Cronofy provides a simple API endpoint to do this.
 
