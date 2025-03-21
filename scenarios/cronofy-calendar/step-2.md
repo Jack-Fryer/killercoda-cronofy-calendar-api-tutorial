@@ -14,10 +14,15 @@ Now that you've obtained an access token, you can use it to read events from the
    -H "Authorization: Bearer <ACCESS_TOKEN>"
 
 
+**Response**: If the request is successful, you will receive a response with the details of the newly created event:
 
-2. **Handling the Response**:
-   The API will return a list of events in JSON format. Once you have the events data, you can use it in your application as needed. For example, you could display the events in a user interface, or analyze the data for specific tasks.
-
-This step shows how to fetch events. In the next step, we’ll cover how to create a new event on the calendar.
-    
-  
+```json
+{
+  "event_id": "event-123",
+  "summary": "Team Sync",
+  "description": "Meeting to discuss project updates",
+  "start": "2025-03-25T09:00:00Z",
+  "end": "2025-03-25T10:00:00Z",
+  "location": "Zoom",
+  "timezone": "UTC"
+}
