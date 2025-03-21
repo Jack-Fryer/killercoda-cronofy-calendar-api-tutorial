@@ -29,6 +29,8 @@ http://127.0.0.1
 
 ## 🔑 2. Authorize access to your calendar
 
+Scroll down the page and click 'Connect a calendar for your account' and go through the oAuth flow in your browser. 
+
 After authorizing Cronofy access to your calendar, scroll down the page and copy your:
 - **Access Token**
   
