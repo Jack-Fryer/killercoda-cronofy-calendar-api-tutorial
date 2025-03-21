@@ -13,8 +13,7 @@ Now that you've obtained an access token, you can use it to read events from the
    curl -X GET "https://api.cronofy.com/v1/calendars/<CALENDAR_ID>/events" \
    -H "Authorization: Bearer <ACCESS_TOKEN>"
 
-
-**Response**: If the request is successful, you will receive a response with the details of the newly created event:
+2. **Handling the Response**: If the request is successful, you will receive a response with the details of the newly created event:
 
 ```json
 {
