@@ -6,9 +6,9 @@ We first need to connect to the Cronofy API using your client credentials.
 
 ## 🧠 1. Create a Cronofy Developer App
 
-1. Go to the [Cronofy Developer Console]([https://app.cronofy.com/sign_up/developer]) and create an account. 
+1. Go to the [Cronofy Developer Console](https://app.cronofy.com/sign_up/developer) and create a free account.  
 2. Click **“Create New Application”**  
-3. Name it anything you like  
+3. Name it anything you like, like 'Calendar API Test'.  
 4. Set the **Redirect URI** to:
 
 ```
@@ -50,4 +50,5 @@ You should see a JSON response with your access token:
 ```
 
 👉 Copy that access token — you’ll use it in the next step!
+
 
