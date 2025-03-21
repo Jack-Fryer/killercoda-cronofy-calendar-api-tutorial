@@ -13,7 +13,7 @@ We first need to connect to the Cronofy API using your client credentials.
 4. Set the **URL** to:
 
 ```
-(http://127.0.0.)
+http://127.0.0.1
 ```
 
 > (We won’t use this for this tutorial, but it’s required)
