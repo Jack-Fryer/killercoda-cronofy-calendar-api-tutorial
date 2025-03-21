@@ -6,20 +6,18 @@ Cronofy provides a simple API endpoint to do this.
 
 ---
 
-## 🔁 a. Make an API Request to Fetch Events
+## 🔁 Make an API Request to Fetch Events
 
-To read events, you’ll send a `GET` request to Cronofy’s `/events` endpoint.
+To read events on your calendar, you’ll send a `GET` request to Cronofy’s `/events` endpoint.
 
-Before running the command below, replace:
- 
-- `<ACCESS_TOKEN>` with the token you got in Step 3
+> Before running the command below, replace `<ACCESS_TOKEN>` with the token you got in Step 3
 
 
 The Cronofy API allows you to read all events across all calendars for all providers with one call. The only mandatory parameter is the tzid, ie. time zone identifier, for which you want to read. The example below is for UTC, but you can also use Europe/Paris, America/Chicago or any identifier in the IANA Time Zone Database.
 
 > By default the events returned are from 42 days in the past to 201 days in the future. You can specify `<from>` and `<to>` parameters to refine that search - you can see the query below is searching for events set between March 21st 2025 and March 22nd 2025.
 
-
+Copy the command into your terminal:
 
 ```bash
 curl -v -G --header "Authorization: Bearer {YOUR_ACCESS_TOKEN_HERE}" \
