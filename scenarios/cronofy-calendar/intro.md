@@ -7,6 +7,8 @@ In this interactive scenario, you’ll get hands-on experience with the **Cronof
 
 As you run through this tutorial, you will be copy and pasting the commands you see into the Killercoda terminal on the right hand side.
 
+-
+
 
 ---
 
@@ -25,6 +27,7 @@ As you run through this tutorial, you will be copy and pasting the commands you 
    Learn how to remove events from a calendar using Cronofy’s API.
 
 ---
+-
 
 By the end of this tutorial, you’ll have a Cronofy Developer Account up and running, and will have grasped the basics of working with **Cronofy’s Calendar API**.
 
