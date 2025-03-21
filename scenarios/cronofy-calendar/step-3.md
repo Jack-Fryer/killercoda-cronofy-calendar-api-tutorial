@@ -67,4 +67,6 @@ If successful, the API will return a JSON array of upcoming events. Here’s a s
 
 ---
 
-✅ You’ve now created a real event on a real calendar using Cronofy’s API!
+✅ You’ve now created a real event on a real calendar using Cronofy’s API! Head to your calendar to verify the event was created.
+
+We're going to delete it in the next step.
