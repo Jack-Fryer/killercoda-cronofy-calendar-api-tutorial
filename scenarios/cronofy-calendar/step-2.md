@@ -24,6 +24,7 @@ This will return a list of events from that calendar.
 
 ---
 
+
 ## 📬 2. Example Response
 
 If the request is successful, you'll receive a list of events in JSON format. Here's a sample of one event object:
@@ -44,5 +45,6 @@ If the request is successful, you'll receive a list of events in JSON format. He
 
 ✅ You’ve now successfully fetched real calendar data using the Cronofy Calendar API!
 
-Next, you’ll learn how to create an event in your calendar by calling the Calendar API.
+
+> Next, you’ll learn how to create an event in your calendar by calling the Calendar API.
 
