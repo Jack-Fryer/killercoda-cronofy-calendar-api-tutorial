@@ -33,6 +33,7 @@ Scroll down the page and click 'Connect a calendar for your account' and go thro
 
 After authorizing Cronofy access to your calendar, scroll down the page and copy your:
 - **Access Token**
+- **Calendar ID**
   
 > 👉 You'll need your Access Token in the next step!
 
