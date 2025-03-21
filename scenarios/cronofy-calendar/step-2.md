@@ -15,9 +15,12 @@ Before running the command below, replace:
 - `<CALENDAR_ID>` with the ID of the calendar you want to query  
 - `<ACCESS_TOKEN>` with the token you got in Step 3
 
+- The Cronofy API allows you to read all events across all calendars for all providers with one call. The only mandatory parameter is the tzid, ie. time zone identifier, for which you want to read.
+
+The example below is for UTC, but you can also use Europe/Paris, America/Chicago or any identifier in the IANA Time Zone Database.
+
 ```bash
-curl -X GET "https://api.cronofy.com/v1/calendars/<CALENDAR_ID>/events" \
-  -H "Authorization: Bearer <ACCESS_TOKEN>" | jq
+curl -v -G --header "Authorization: Bearer {YOUR_ACCESS_TOKEN_HERE}" -d 'tzid=Etc/UTC' https://api.cronofy.com/v1/events
 ```
 
 This will return a list of events from that calendar.
