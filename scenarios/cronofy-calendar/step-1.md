@@ -21,7 +21,7 @@ http://localhost:3000/callback
 - **Client ID**
 - **Client Secret**
 
-👉 You’ll also need to **authorize access to your calendar** during this tutorial in order to make API calls that interact with real data.
+> 👉 You’ll also need to **authorize access to your calendar** during this tutorial in order to make API calls that interact with real data.
 
 ---
 
