@@ -18,7 +18,7 @@ http://127.0.0.1
 
 > (We won’t use this for this tutorial, but it’s required)
 
-5. After creating the app, copy your:
+After creating the application, copy your:
 - **Client ID**
 - **Client Secret**
 
