@@ -1,11 +1,24 @@
-# Welcome to the Cronofy Calendar API Tutorial!
+# 👋 Welcome to the Cronofy Calendar API Tutorial!
 
-In this tutorial, you will learn how to integrate with the **Cronofy Calendar API** to perform the following tasks:
+In this interactive scenario, you’ll get hands-on experience with the **Cronofy Calendar API**. You’ll learn how to connect, read, and write to calendars — all right here in the browser.
 
-1. **Authorize Access to a Calendar**: Learn how to authenticate and get permission to access a user's calendar.
-2. **Read Events from the Calendar**: Fetch events from the calendar to display or process them.
-3. **Create a New Event in the Calendar**: Add new events to a user's calendar using the Cronofy API.
+---
 
-By the end of this tutorial, you will have gained hands-on experience working with the Cronofy Calendar API and learned how to integrate calendar functionality into your applications.
+## 🧭 What You’ll Learn
 
-Let's get started!
+1. 🔐 **Authorize Access to a Calendar**  
+   Authenticate and request permission to access a user's calendar.
+
+2. 📅 **Read Events from the Calendar**  
+   Fetch upcoming events using Cronofy’s API.
+
+3. 📝 **Create a New Event**  
+   Add new events programmatically to any connected calendar.
+
+---
+
+By the end of this tutorial, you’ll have a working knowledge of Cronofy’s API and a basic scheduling app running in your browser.
+
+No frameworks. No installs. Just code.
+
+👇 Click **Start Scenario** to begin!
