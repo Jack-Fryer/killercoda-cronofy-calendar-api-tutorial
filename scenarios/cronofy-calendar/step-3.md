@@ -8,7 +8,7 @@ Now that you know how to read events, let’s move on to creating them. Cronofy�
 
 To create a new event, send a `POST` request to the `/events` endpoint.
 
-Before running the command below, replace:
+> Before running the command below, replace:
 
 - `<CALENDAR_ID>`: The calendar you want to add the event to  
 - `<ACCESS_TOKEN>`: Your access token from the previous step  
@@ -69,4 +69,4 @@ If successful, the API will return a JSON array of upcoming events. Here’s a s
 
 ✅ You’ve now created a real event on a real calendar using Cronofy’s API! Head to your calendar to verify the event was created.
 
-We're going to delete it in the next step.
+> We're going to delete it in the next step.
