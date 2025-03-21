@@ -20,7 +20,7 @@ In this interactive scenario, you’ll get hands-on experience with the **Cronof
 
 ---
 
-By the end of this tutorial, you’ll have a working knowledge of **Cronofy’s Calendar API** and a basic scheduling flow running in your browser.
+By the end of this tutorial, you’ll have a Cronofy Developer Account up and running, and will have grasped the basics of working with **Cronofy’s Calendar API**.
 
 No frameworks. No installs. Just code.
 
