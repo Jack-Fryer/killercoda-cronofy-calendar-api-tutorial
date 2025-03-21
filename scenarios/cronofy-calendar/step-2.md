@@ -14,13 +14,16 @@ Before running the command below, replace:
  
 - `<ACCESS_TOKEN>` with the token you got in Step 3
 
-The Cronofy API allows you to read all events across all calendars for all providers with one call. The only mandatory parameter is the tzid, ie. time zone identifier, for which you want to read.
 
-The example below is for UTC, but you can also use Europe/Paris, America/Chicago or any identifier in the IANA Time Zone Database.
+The Cronofy API allows you to read all events across all calendars for all providers with one call. The only mandatory parameter is the tzid, ie. time zone identifier, for which you want to read. The example below is for UTC, but you can also use Europe/Paris, America/Chicago or any identifier in the IANA Time Zone Database.
+
+> By default the events returned are from 42 days in the past to 201 days in the future. You can specify `<from>` and `<to>` parameters to refine that search - you can see the query below is searching for events set between March 21st 2025 and March 22nd 2025.
+
+
 
 ```bash
-curl -v -G --header "Authorization: Bearer {YOUR_ACCESS_TOKEN_HERE}"
-\-d 'tzid=Etc/UTC' https://api.cronofy.com/v1/events
+curl -v -G --header "Authorization: Bearer {YOUR_ACCESS_TOKEN_HERE}" \
+  -d 'tzid=Etc/UTC&from=2025-03-21&to=2025-03-22' https://api.cronofy.com/v1/events
 ```
 
 This will return a list of events from that calendar.
