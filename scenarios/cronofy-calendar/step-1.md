@@ -37,7 +37,7 @@ CLIENT_SECRET="your-client-secret"
 curl -X POST https://api.cronofy.com/oauth/token \
   -d "grant_type=client_credentials" \
   -d "client_id=$CLIENT_ID" \
-  -d "client_secret=$CLIENT_SECRET" | jq
+  -d "client_secret=$CLIENT_SECRET"
 ```
 
 You should see a JSON response with your access token:
