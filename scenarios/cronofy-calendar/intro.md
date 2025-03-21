@@ -1,6 +1,6 @@
 # 👋 Welcome to the Cronofy Calendar API Tutorial!
 
-In this interactive scenario, you’ll get hands-on experience with the **Cronofy Calendar API**. You’ll learn how to connect, read, and write to calendars — all right here in the browser.
+In this interactive scenario, you’ll get hands-on experience with the **Cronofy Calendar API**. You’ll learn how to connect, read, write, and delete calendar events — all right here in the browser.
 
 ---
 
@@ -15,9 +15,12 @@ In this interactive scenario, you’ll get hands-on experience with the **Cronof
 3. 📝 **Create a New Event**  
    Add new events programmatically to any connected calendar.
 
+4. ❌ **Delete an Event**  
+   Learn how to remove events from a calendar using Cronofy’s API.
+
 ---
 
-By the end of this tutorial, you’ll have a working knowledge of Cronofy’s API and a basic scheduling app running in your browser.
+By the end of this tutorial, you’ll have a working knowledge of **Cronofy’s Calendar API** and a basic scheduling flow running in your browser.
 
 No frameworks. No installs. Just code.
 
