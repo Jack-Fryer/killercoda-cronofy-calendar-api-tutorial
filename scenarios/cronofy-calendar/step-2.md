@@ -11,8 +11,7 @@ Cronofy provides a simple API endpoint to do this.
 To read events, you’ll send a `GET` request to Cronofy’s `/events` endpoint.
 
 Before running the command below, replace:
-
-- `<CALENDAR_ID>` with the ID of the calendar you want to query  
+ 
 - `<ACCESS_TOKEN>` with the token you got in Step 3
 
 The Cronofy API allows you to read all events across all calendars for all providers with one call. The only mandatory parameter is the tzid, ie. time zone identifier, for which you want to read.
