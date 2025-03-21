@@ -6,7 +6,7 @@ We first need to connect to the Cronofy API using your client credentials.
 
 ## 🧠 1. Create a Cronofy Developer App
 
-1. Go to the [Cronofy Developer Console](https://app.cronofy.com/developers/applications)  
+1. Go to the [Cronofy Developer Console]([https://app.cronofy.com/sign_up/developer])  
 2. Click **“Create New Application”**  
 3. Name it anything you like  
 4. Set the **Redirect URI** to:
