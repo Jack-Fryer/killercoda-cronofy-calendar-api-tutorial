@@ -1,11 +1,9 @@
-# 🔐 Step 1: Connect to the Cronofy API
+# 🔐 Step 1: Create a Cronofy Developer App
 
 We first need to connect to the Cronofy API using your client credentials.
 
 ---
 ---
-
-## 🧠 1. Create a Cronofy Developer App
 
 1. Go to the [Cronofy Developer Console](https://app.cronofy.com/sign_up/developer) and create a free account.  
 2. Click **“Create New Application”**  
