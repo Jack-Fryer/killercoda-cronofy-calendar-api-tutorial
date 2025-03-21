@@ -3,16 +3,17 @@
 We first need to connect to the Cronofy API using your client credentials.
 
 ---
+---
 
 ## 🧠 1. Create a Cronofy Developer App
 
 1. Go to the [Cronofy Developer Console](https://app.cronofy.com/sign_up/developer) and create a free account.  
 2. Click **“Create New Application”**  
 3. Name it anything you like, like 'Calendar API Test'.  
-4. Set the **Redirect URI** to:
+4. Set the **URL** to:
 
 ```
-http://localhost:3000/callback
+(http://127.0.0.)
 ```
 
 > (We won’t use this for this tutorial, but it’s required)
@@ -22,6 +23,7 @@ http://localhost:3000/callback
 - **Client Secret**
 
 
+---
 ---
 
 
