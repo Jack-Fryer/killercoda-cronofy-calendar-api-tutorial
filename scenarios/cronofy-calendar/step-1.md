@@ -25,6 +25,7 @@ http://localhost:3000/callback
 
 ---
 
+
 ## 🔑 2. Request an Access Token
 
 Paste your credentials into these variables and run this in the terminal:
@@ -49,6 +50,6 @@ You should see a JSON response with your access token:
 }
 ```
 
-👉 Copy that access token — you’ll use it in the next step!
+> 👉 Copy that access token — you’ll use it in the next step!
 
 
