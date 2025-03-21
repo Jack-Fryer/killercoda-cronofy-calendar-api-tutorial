@@ -1,19 +1,32 @@
-# Step 2: Read Events from the Calendar
+# 📅 Step 2: Read Events from the Calendar
 
-Now that you've obtained an access token, you can use it to read events from the user's calendar. Cronofy provides an API endpoint to fetch calendar events.
+Now that you've obtained an access token, you can use it to read events from the user's calendar. For the case of this tutorial, we will be reading events from your own calendar that you have already connected. 
 
-## Steps:
+Cronofy provides a simple API endpoint to do this.
 
-1. **Make an API Request to Fetch Events**:
-   To read events from the user's calendar, you need to send a `GET` request to the Cronofy `events` endpoint. 
+---
 
-   Here's a sample `curl` command to fetch events. Before you copy this into the terminal, replace <CALENDAR_ID> with the ID of the calendar you want to fetch events from, and <ACCESS_TOKEN> with the access token you obtained earlier.
+## 🔁 1. Make an API Request to Fetch Events
 
-   ```bash
-   curl -X GET "https://api.cronofy.com/v1/calendars/<CALENDAR_ID>/events" \
-   -H "Authorization: Bearer <ACCESS_TOKEN>"
+To read events, you’ll send a `GET` request to Cronofy’s `/events` endpoint.
 
-2. **Handling the Response**: If the request is successful, you will receive a response with the details of the newly created event:
+Before running the command below, replace:
+
+- `<CALENDAR_ID>` with the ID of the calendar you want to query  
+- `<ACCESS_TOKEN>` with the token you got in Step 3
+
+```bash
+curl -X GET "https://api.cronofy.com/v1/calendars/<CALENDAR_ID>/events" \
+  -H "Authorization: Bearer <ACCESS_TOKEN>" | jq
+```
+
+This will return a list of events from that calendar.
+
+---
+
+## 📬 2. Example Response
+
+If the request is successful, you'll receive a list of events in JSON format. Here's a sample of one event object:
 
 ```json
 {
@@ -25,3 +38,11 @@ Now that you've obtained an access token, you can use it to read events from the
   "location": "Zoom",
   "timezone": "UTC"
 }
+```
+
+---
+
+✅ You’ve now successfully fetched real calendar data using the Cronofy Calendar API!
+
+Next, you’ll learn how to create an event in your calendar by calling the Calendar API.
+
